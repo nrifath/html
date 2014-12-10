@@ -1,12 +1,38 @@
+//To initialize your directory as github repository
 git init
+
+//To know the current status of your directory
 git status
-git add filename.extension
+
+//To add a single file under tracking
+git add filename.extension (example: git add index.html)
+
+//To add all new or modified file under tracking
 git add .
+
+//To set username Globally(For All Project)
 git config --global user.name "Your_Github_user_name"
+
+//To set Email Globally(For All Project)
 git config --global user.email "Your_Github_Email"
+
+================================================
+//To set username Locally(For All Project)
+git config user.name "Your_Github_user_name"
+
+//To set Email Locally(For All Project)
+git config user.email "Your_Github_Email"
+
+// To add your Remote Repository Location
 git remote add origin repository_location
+
+//To Get The Last Updated Version of YOur Project
 git pull repository_location
+
+//To Commit a Message What Changed you have done!
 git commit -m "Your Message"
+
+//To Upload the Project into your Repository Finally
 git push
 
 
