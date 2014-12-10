@@ -1,0 +1,12 @@
+git init
+git status
+git add filename.extension
+git add .
+git config --global user.name "Your_Github_user_name"
+git config --global user.email "Your_Github_Email"
+git remote add origin repository_location
+git pull repository_location
+git commit -m "Your Message"
+git push
+
+
